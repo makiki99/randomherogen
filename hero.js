@@ -125,6 +125,9 @@ var bb = [
 	"clerk",
 	"taxi driver",
 	"postman",
+	"janitor",
+	"doctor",
+	"nurse",
 ]
 // destined to
 var ca = [
@@ -185,6 +188,7 @@ var cb = [
 	"australia",
 	"china",
 	"ussr",
+	"canada",
 	"switzerland",
 	"hospital",
 	"school",
