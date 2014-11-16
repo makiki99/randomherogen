@@ -93,6 +93,8 @@ var ba = [
 	"furious",
 	"badass",
 	"exiled",
+	"wild",
+	"sleepy",
 ]
 var bb = [
 	"blacksmith",
@@ -118,6 +120,8 @@ var bb = [
 	"sniper",
 	"guard",
 	"beastmaster",
+	"pope",
+	"beggar",
 	"necromancer",
 	"lord",
 	"predator",
@@ -334,6 +338,8 @@ var eb = [
 	"sense",
 	"levitation",
 	"ball",
+	"fist",
+	"punch",
 ]
 //onclick function
 function newhero() {
