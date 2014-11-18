@@ -343,6 +343,12 @@ var eb = [
 ]
 //onclick function
 function newhero() {
+	$("#a").text('???')
+	$("#b").text('???')
+	$("#c").text('???')
+	$("#d").text('???')
+	$("#e").text('???')
+	$("#f").text('???')
 	$("#a").text(aa[Math.floor(Math.random()*aa.length)] + " " + ab[Math.floor(Math.random()*ab.length)])
 	$("#b").text(ba[Math.floor(Math.random()*ba.length)] + " " + bb[Math.floor(Math.random()*bb.length)])
 	$("#c").text(ca[Math.floor(Math.random()*ca.length)] + " " + cb[Math.floor(Math.random()*cb.length)])
