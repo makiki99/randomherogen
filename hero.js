@@ -2,6 +2,8 @@
 var aa = [
 	"skilled",
 	"obese",
+	"midget",
+	"old",
 	"schizofrenic",
 	"dumped",
 	"zombified",
@@ -37,6 +39,8 @@ var ab = [
 	"rat",
 	"dinosaur",
 	"ghost",
+	"Giant",
+	'golem',
 	"specter",
 	"robot",
 	"monk",
@@ -86,6 +90,7 @@ var ba = [
 	"famous",
 	"neutral",
 	"deadly",
+	'pacifist',
 	"hideous",
 	"outstanding",
 	"annoying",
@@ -95,6 +100,7 @@ var ba = [
 	"exiled",
 	"wild",
 	"sleepy",
+	"boring",
 ]
 var bb = [
 	"blacksmith",
@@ -132,6 +138,12 @@ var bb = [
 	"janitor",
 	"doctor",
 	"nurse",
+	'general',
+	'hippy',
+	'dealer',
+	'top chef',
+	"mr. president",
+	"prime minister",
 ]
 // destined to
 var ca = [
@@ -300,6 +312,7 @@ var ea = [
 	"enchaced",
 	"physical",
 	"insane",
+	'poisonous',
 	"overpowered",
 	"annoying",
 	"beast",
@@ -340,15 +353,11 @@ var eb = [
 	"ball",
 	"fist",
 	"punch",
+	'spike',
+	'minefield',
 ]
 //onclick function
 function newhero() {
-	$("#a").text('???')
-	$("#b").text('???')
-	$("#c").text('???')
-	$("#d").text('???')
-	$("#e").text('???')
-	$("#f").text('???')
 	$("#a").text(aa[Math.floor(Math.random()*aa.length)] + " " + ab[Math.floor(Math.random()*ab.length)])
 	$("#b").text(ba[Math.floor(Math.random()*ba.length)] + " " + bb[Math.floor(Math.random()*bb.length)])
 	$("#c").text(ca[Math.floor(Math.random()*ca.length)] + " " + cb[Math.floor(Math.random()*cb.length)])
